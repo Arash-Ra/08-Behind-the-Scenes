@@ -155,3 +155,5 @@ console.log(me);
 
 console.log('friend object:');
 console.log(friend);
+
+let job = 'Technician';
