@@ -158,6 +158,7 @@ console.log('friend object:');
 console.log(friend);
 */
 
+/*
 // Reference types
 const jessica = {
   firstName: 'Jessica',
@@ -187,3 +188,4 @@ jessicaCopy.lastName = 'Davis';
 jessicaCopy.family.push('Tony');
 console.log('Before marriage', jessica2);
 console.log('After marriage', jessicaCopy);
+*/
