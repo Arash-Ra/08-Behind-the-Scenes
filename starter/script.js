@@ -119,6 +119,7 @@ addArrow(2, 4, 9);
 
 */
 
+/*
 let age = 30;
 let oldAge = age;
 age = 31;
@@ -155,5 +156,34 @@ console.log(me);
 
 console.log('friend object:');
 console.log(friend);
+*/
 
-let job = 'Technician';
+// Reference types
+const jessica = {
+  firstName: 'Jessica',
+  lastName: 'Williams',
+  age: 27,
+};
+
+const marriedJessica = jessica;
+marriedJessica.lastName = 'Davis';
+
+console.log('Married Jessica:');
+
+console.log(marriedJessica);
+console.log(' Jessica:');
+console.log(jessica);
+
+// Copying objects
+const jessica2 = {
+  firstName: 'Jessica',
+  lastName: 'Williams',
+  age: 27,
+  family: ['alex', 'bob'],
+};
+
+const jessicaCopy = Object.assign({}, jessica2);
+jessicaCopy.lastName = 'Davis';
+jessicaCopy.family.push('Tony');
+console.log('Before marriage', jessica2);
+console.log('After marriage', jessicaCopy);
